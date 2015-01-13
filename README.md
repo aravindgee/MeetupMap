@@ -17,7 +17,7 @@ Demo: http://aravindgee.com/meetup/
 - Bigger marker size means more attendees RSVPed Yes.
 - Purple marker = organizer charges attendees a fee
 
-** Use this visualization to **
+**Use this visualization to**
 - Find which locations have the most meetups relevant to your interests.
 - Discover events that are the most popular
 - Find which locations within the city host the largest number of meetups.

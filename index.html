@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript"  src="https://maps.googleapis.com/maps/api/js?&libraries=places&sensor=true&key=INSERT_YOUR_API_KEY_HERE"></script>
+		<script type="text/javascript" src="oms.min.js"></script>
+		<script type="text/javascript" src="map.js"></script>
+		<title>Meetup Mapper [WIP]</title>
+	</head>
+	<body>
+	<div id="loading">
+			<img src="./images/ajax-loader.gif" alt="Loading.." /><br>Hang on.. This might take a while.
+			<br><a href="." >Abort and reload?</a>
+		</div>
+		<input id="pac-input" class="controls" type="text" placeholder="Location">
+		<form id="keyform" onSubmit="event.preventDefault(); query();">
+			<input id="pac-input-keyword" class="controls" type="text" placeholder="Event Keywords">
+			<input class="controls" type="submit" value="GO">
+		</form>
+		<div id="map-canvas"></div>
+		<div id="footer">
+			Feedback? Send an <a href="mailto:mail@aravindgee.com?subject=Meetup Mapper" target="_blank">email</a> or <a href="https://twitter.com/intent/tweet?text=%23meetupmapper%20@aravindgee%20" target="_blank">tweet</a>.
+		</div>
+	</body>
+</html>

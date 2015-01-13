@@ -4,6 +4,8 @@ _An interactive visualization of upcoming meetups (from Meetup.com)_
 
 Demo: http://aravindgee.com/meetup/
 
+Works on Desktop and most Mobile browsers.
+
 **Installation**
 - Copy files to a PHP server
 - Edit Line #3 of meetup.php with your Meetup API key
